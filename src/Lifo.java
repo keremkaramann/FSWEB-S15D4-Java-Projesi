@@ -13,9 +13,9 @@ public class Lifo {
             String lifos = lifo.toLowerCase().replaceAll("[.,!?\"]", "");
             String reversedLifos = new StringBuilder(lifos).reverse().toString();
             if (lifos.equals(reversedLifos)) {
-                System.out.println("These are polindrom " + lifos);
+                System.out.println("These are polindrom: " + lifos);
             } else {
-                System.out.println("Not polindrom " + lifos);
+                System.out.println("Not polindrom: " + lifos);
             }
         }
     }
